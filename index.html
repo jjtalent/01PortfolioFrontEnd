@@ -1,14 +1,447 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+
+<head>   
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  
+  <!--Mi CSS-->
+  <link rel="stylesheet" href="Bootstrap-5.2.0/css/main.css">
+  
+  <!--CSS Bootstrap-->
+  <link rel="stylesheet" href="Bootstrap-5.2.0/css/bootstrap.min.css">
+  
+  <!-- Links Varios -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
 </head>
+  
 <body>
-    <h1>
-        Mi Portfolio Personal
-    </h1>
+  
+  <!-- Header -->
+  <header class="header mx-auto">
+    <div class="container">
+      
+      <!-- Navbar-->
+      <nav class="row" style="padding-bottom: 0.5em;">
+        
+        <!-- Logo AP -->
+        <a href="#" class="logo col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3 justify-content-between align-items-center mx-auto pt-2">
+            <img src="img/Logo AP - YP.png" alt="Logo Argentina Programa" class="img-logo">
+        </a>
+        
+        <!-- RRSS y Login -->
+        <div class="rrss col-xs-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9 justify-content-between align-items-center mx-auto pt-2" id="footer-socials">
+          <div class="socials inline-inside socials-colored">
+            <a href="#" target="_blank" title="Facebook" class="socials-item">
+              <i class="fab fa-facebook-f facebook"></i>
+            </a>
+            <a href="#" target="_blank" title="GitHub" class="socials-item">
+              <i class="fab fa-github github"></i>
+            </a>                  
+            <a href="#" target="_blank" title="Instagram" class="socials-item">
+              <i class="fab fa-instagram instagram"></i>
+            </a>
+            <a href="#" target="_blank" title="Linkedin" class="socials-item">
+              <i class="fab fa-linkedin linkedin"></i>
+            </a>
+            <a href="#" target="_blank" title="Tweeter" class="socials-item">
+              <i class="fab fa-twitter twitter"></i>
+            </a>
+            <a href="login.html" class="btn btn-sm" id="login" title="Sólo Administrador">Ingresar</a>
+          </div>
+        </div>
+      </nav>  
+      
+      <!-- Banner-->
+      <div class="row">
+          <img src="img/bannerchico.png" class="img-fluid img-responsive">                     
+      </div>
+    </div>
+  </header>
+    
+  <!-- Acerca De-->
+  <section class="container">
+    <div class="row mx-auto" style="background-color: #d5d5d5;">
+      <div class="adprimera col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+        <img id="fotoperfil" src="img/Foto Perfil.png" aling="left" class ="img-fluid img-responsive">
+        <h2 class="text-center">JUAN JOSÉ TALENTI</h2> 
+      </div>
+      <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+        <h2 class="text-center">FULL STACK DEVELOPER Jr</h2>
+        <p class="acercade text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic rem placeat nulla accusamus soluta voluptatibus, cupiditate et corporis sapiente vitae minima, pariatur voluptates numquam aperiam eos commodi ipsum quibusdam unde? Alias dolor, ullam asperiores accusantium consequuntur corporis reprehenderit, illum voluptatibus quasi ea, cupiditate officiis delectus consectetur. Praesentium, asperiores? Veniam excepturi accusamus fuga ea corrupti ratione, fugit facere nemo, quos sint vero earum. Repudiandae deleniti earum, corporis facilis eius laudantium fugit doloribus sequi autem voluptate similique voluptas cumque saepe nostrum alias eaque provident minus tempore sint eligendi sunt quasi commodi! Esse expedita repellendus facere natus consequuntur minus perferendis, recusandae eveniet.</p> 
+      </div>
+      <hr class="linea">
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="container">
+    <div class="row mx-auto" style="background-color: #d5d5d5;">
+      <h2 style="margin-bottom:1em;">EXPERIENCIA LABORAL</h2>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 text-center">
+        <img class="img-fluid" src="img/explab01.png" style="padding-bottom: 0.5em;">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+        <h4 class="text-center">Experiencia Laboral 1</h4>
+        <h5 class="text-center">Período () - ()</h5>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <p class="acercade text-justify" style="padding-bottom: 1em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic rem placeat nulla accusamus soluta voluptatibus, cupiditate et corporis sapiente vitae minima, pariatur voluptates numquam aperiam eos commodi ipsum quibusdam unde? Alias dolor, ullam asperiores accusantium consequuntur corporis reprehenderit, illum voluptatibus quasi ea, cupiditate officiis delectus consectetur. Praesentium, asperiores? Veniam excepturi accusamus fuga ea corrupti ratione, fugit facere nemo, quos sint vero earum. Repudiandae deleniti earum, corporis facilis eius laudantium fugit doloribus sequi autem voluptate similique voluptas cumque saepe nostrum alias eaque provident minus tempore sint eligendi sunt quasi commodi! Esse expedita repellendus facere natus consequuntur minus perferendis, recusandae eveniet.</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 text-center">
+        <img class="img-fluid" src="img/explab02.png" style="padding-bottom: 0.5em;">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+        <h4 class="text-center">Experiencia Laboral 2</h4>
+        <h5 class="text-center">Período () - ()</h5>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <p class="acercade text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic rem placeat nulla accusamus soluta voluptatibus, cupiditate et corporis sapiente vitae minima, pariatur voluptates numquam aperiam eos commodi ipsum quibusdam unde? Alias dolor, ullam asperiores accusantium consequuntur corporis reprehenderit, illum voluptatibus quasi ea, cupiditate officiis delectus consectetur. Praesentium, asperiores? Veniam excepturi accusamus fuga ea corrupti ratione, fugit facere nemo, quos sint vero earum. Repudiandae deleniti earum, corporis facilis eius laudantium fugit doloribus sequi autem voluptate similique voluptas cumque saepe nostrum alias eaque provident minus tempore sint eligendi sunt quasi commodi! Esse expedita repellendus facere natus consequuntur minus perferendis, recusandae eveniet.</p>
+      </div>
+      <hr class="linea">
+    </div>
+  </section>
+
+  <!-- Educación -->
+  <section class="container">
+    <div class="row mx-auto" style="background-color: #d5d5d5;">
+      <h2 style="margin-bottom:1em;">EDUCACIÓN</h2>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 text-center">
+        <img class="img-fluid" src="img/uni02.jfif" style="padding-bottom: 1em;">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+        <h4 class="text-center">Educación 1</h4>
+        <h5 class="text-center">Período () - ()</h5>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <p class="acercade text-justify" style="padding-bottom: 1em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fuga voluptate natus obcaecati tempora quaerat amet a aut debitis soluta vel laudantium nam ut, voluptatum aperiam facilis inventore totam iusto quam molestiae similique nihil beatae ullam mollitia! Ipsum expedita libero minima vero unde aspernatur nulla accusamus, dolorum eligendi iste corrupti?</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 text-center">
+        <img class="img-fluid" src="img/uni01.jfif" style="padding-bottom: 1em;">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+        <h4 class="text-center">Educación 2</h4>
+        <h5 class="text-center">Período () - ()</h5>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <p class="acercade text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eum cum qui, placeat, omnis quisquam ex iusto, id quo delectus iste. Eum molestias quae provident numquam expedita vero hic, tenetur laboriosam cumque quo, blanditiis repellendus laborum beatae assumenda aperiam, aspernatur quis necessitatibus ea dicta pariatur. Non quidem repudiandae ratione a.</p>
+      </div>
+      <hr class="linea">
+    </div>
+  </section>
+
+  <!-- Hard and Soft Skills -->
+  <section class="container">
+    <div class="row mx-auto" style="background: #d5d5d5;">
+      <h2 style="color:#000;">HARD & SOFT SKILLS</h2>
+      
+      <!-- Habilidades Duras y Blandas -->
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3" style="padding:3em;">
+        <div class="progress-bars-1">
+          <h4>80%</h4>
+          <p>Habilidad 1</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3" style="padding:3em;">
+        <div class="progress-bars-2">
+          <h4>40%</h4>
+          <p>Habilidad 2</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3" style="padding:3em;">
+        <div class="progress-bars-3">
+          <h4>65%</h4>
+          <p>Habilidad 3</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3" style="padding:3em;">
+        <div class="progress-bars-4">
+          <h4>70%</h4>
+          <p>Habilidad 4</p>
+        </div>
+      </div>
+    </div>
+      
+    <!-- Idiomas -->
+    <div class="container">
+      <div class="row" style="background: #d5d5d5;">
+        <h2 style="color:#000;">IDIOMAS</h2>
+        <div class="col-md-6">
+          <h3 class="progress-title"><p style="vertical-align: inherit;">Italiano - 60%</p></h3>
+          <div class="progress 1">
+            <div class="progress-bar" style="width:60%; background:#96858f;"></div>
+          </div>
+          <h3 class="progress-title"><p style="vertical-align: inherit;">Inglés - 90%</p></h3>
+          <div class="progress 2">
+            <div class="progress-bar" style="width:90%; background:#6d7993;"></div>
+          </div>
+        </div>
+        <hr class="linea">
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section class="container">
+    <div class="row mx-auto" style="background-color: #d5d5d5;">
+      <h2 style="margin-bottom:2%;">PROYECTOS</h2>
+        
+      <!-- Proyecto 1 -->
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <hr class="mt-2 mb-2">
+        <h4 class="text-left">Proyecto 1</h4>
+        <h5 class="text-left">Período () - ()</h5>
+        <h5 class="text-left">Link: </h5><a href="#">www.algunsitio.com</a>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <p class="acercade text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic rem placeat nulla accusamus soluta voluptatibus, cupiditate et corporis sapiente vitae minima, pariatur voluptates numquam aperiam eos commodi ipsum quibusdam unde? Alias dolor, ullam asperiores accusantium consequuntur corporis reprehenderit, illum voluptatibus quasi ea, cupiditate officiis delectus consectetur. Praesentium, asperiores? Veniam excepturi accusamus fuga ea corrupti ratione, fugit facere nemo, quos sint vero earum. Repudiandae deleniti earum, corporis facilis eius laudantium fugit doloribus sequi autem voluptate similique voluptas cumque saepe nostrum alias eaque provident minus tempore sint eligendi sunt quasi commodi! Esse expedita repellendus facere natus consequuntur minus perferendis, recusandae eveniet.</p>
+      </div> 
+      <div class="container">
+        <h4 class="text-center text-lg-start mt-1 mb-1.8">Algunas Imágenes del Proyecto</h4>
+        <div class="row text-center text-lg-start">
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="img/pr01.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="img/pr02.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="img/pr03.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="img/pr04.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Proyecto 2 -->
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <hr class="mt-2 mb-2">
+        <h4 class="text-left">Proyecto 2</h4>
+        <h5 class="text-left">Período () - ()</h5>
+        <h5 class="text-left">Link: </h5><a href="#">www.algunsitio.com</a>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <p class="acercade text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic rem placeat nulla accusamus soluta voluptatibus, cupiditate et corporis sapiente vitae minima, pariatur voluptates numquam aperiam eos commodi ipsum quibusdam unde? Alias dolor, ullam asperiores accusantium consequuntur corporis reprehenderit, illum voluptatibus quasi ea, cupiditate officiis delectus consectetur. Praesentium, asperiores? Veniam excepturi accusamus fuga ea corrupti ratione, fugit facere nemo, quos sint vero earum. Repudiandae deleniti earum, corporis facilis eius laudantium fugit doloribus sequi autem voluptate similique voluptas cumque saepe nostrum alias eaque provident minus tempore sint eligendi sunt quasi commodi! Esse expedita repellendus facere natus consequuntur minus perferendis, recusandae eveniet.</p>
+      </div> 
+      <div class="container">
+        <h4 class="text-center text-lg-start mt-1 mb-1.8">Algunas Imágenes del Proyecto</h4>
+        <div class="row text-center text-lg-start">
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="img/pr05.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="img/pr06.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="img/pr07.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="img/pr08.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section>
+    <div class="page-wrapper mx-auto">
+      <div id="waterdrop"></div>
+      <footer>
+        
+        <!-- Footer Top -->
+        <div class="footer-top mx-auto">
+          <div class="pt-exebar"></div>
+          <div class="container">
+            <div class="row">
+              
+              <!-- Dirección -->
+              <div class="col-lg-3 col-md-12 col-sm-12 footer-col-3">
+                <div class="widget footer_widget">
+                  <h5 class="footer-title">Dirección</h5>
+                  <div class="gem-contacts">
+                    <div class="gem-contacts-item gem-contacts-address">Lorem, ipsum. :<br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum voluptates eos nisi vel doloribus quaerat.                            .
+                    </div>
+                    <div class="gem-contacts-item gem-contacts-phone">
+                      <i class="fa fa-phone" aria-hidden="true"></i> Teléfono: <a href="">+54-9122588799</a>
+                    </div>
+                    <div class="gem-contacts-item gem-contacts-address mt-2">Lorem, ipsum. :<br> Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+                    <div class="gem-contacts-item gem-contacts-phone">
+                      <i class="fa fa-phone" aria-hidden="true"></i> Teléfono: <a>+54-9122588799</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Noticias Recientes-->
+              <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                <div class="row">
+                  <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="widget footer_widget">
+                      <h5 class="footer-title">Noticias Recientes</h5>
+                      <ul class="posts styled" style="padding-left: 0.1em;">
+                        <li class="clearfix gem-pp-posts">
+                          <div class="gem-pp-posts-text">
+                            <div class="gem-pp-posts-item">
+                              <a href="#">Lorem ipsum dolor sit.</a>
+                            </div>
+                            <div class="gem-pp-posts-date">Lllama al +54-9122588799
+                            </div>
+                          </div>
+                        </li>
+                        <li class="clearfix gem-pp-posts">
+                          <div class="gem-pp-posts-text">
+                            <div class="gem-pp-posts-item">
+                              <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, impedit?.</a>
+                            </div>
+                            <div class="gem-pp-posts-date">Llama al +54-9122588799, +54-9122588799
+                            </div>
+                          </div>
+                        </li>
+                        <li class="clearfix gem-pp-posts">
+                          <div class="gem-pp-posts-text">
+                            <div class="gem-pp-posts-item">
+                              <a href="">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                            </div>
+                            <div class="gem-pp-posts-date">Llama al +54-9122588799, +54-9122588799
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="widget">
+                      <h5 class="footer-title">Escríbeme</h5>
+                      <div class="textwidget">
+                        <div role="form" class="wpcf7" id="wpcf7-f4-o1" lang="en-US" dir="ltr">
+                          <form method="post" class="wpcf7-form" novalidate="novalidate">
+                            <div class="contact-form-footer">
+                              <p>
+                                <span class="wpcf7-form-control-wrap your-first-name">
+                                  <input type="text" id="your-first-name" name="your-first-name" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Tu Nombre">
+                                </span>
+                              </p>
+                              <p>
+                                <span class="wpcf7-form-control-wrap your-email_1">
+                                  <input type="email" id="your-email_1" name="your-email_1" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email" aria-invalid="false" placeholder="Tu Mail">
+                                </span>
+                              </p>
+                              <p>
+                                <span class="wpcf7-form-control-wrap your-message">
+                                  <textarea id="your-message" name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Tu Mensaje"></textarea>
+                                </span>
+                              </p>
+                              <div>
+                                <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit">
+                                  <span class="ajax-loader"></span>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Así Trabajo -->
+              <div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
+                <div class="widget widget_gallery gallery-grid-4">
+                  <h5 class="footer-title">Así Trabajo...</h5>
+                  <ul class="magnific-image">
+                    <li><a class="magnific-anchor"><img src="img/at01.jpg" alt=""></a></li>
+                    <li><a class="magnific-anchor"><img src="img/at02.jpg" alt=""></a></li>
+                    <li><a class="magnific-anchor"><img src="img/at03.jpg" alt=""></a></li>
+                    <li><a class="magnific-anchor"><img src="img/at04.jpg" alt=""></a></li>
+                    <li><a class="magnific-anchor"><img src="img/at05.jpg" alt=""></a></li>
+                    <li><a class="magnific-anchor"><img src="img/at06.jpg" alt=""></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom mx-auto">
+          <div class="container">
+            <div class="row">
+              
+              <!-- Autor y Copyright -->
+              <div class="col-md-4" style="padding-top:0.5em">
+                <div class="footer-site-info">2022 © Juan José Talenti<br>Argentina Programa</a></div>
+              </div>
+
+              <!-- Otros Servicios -->
+              <div class="col-md-4" style="padding-top:0.5em">
+                <nav id="footer-navigation" class="site-navigation footer-navigation centered-box" role="navigation">
+                  <ul id="footer-menu" class="nav-menu styled clearfix inline-inside">
+                    <!--<li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a href="#">Soporte</a></li>-->
+                    <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="#">Asesoramiento</a></li>
+                    <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="#">CV en PDF</a></li>
+                  </ul>
+                </nav>
+              </div>
+
+              <!-- RRSS -->
+              <div class="col-md-4" style="padding-top:0.5em">
+                <div id="footer-socials">
+                  <div class="socials inline-inside socials-colored">
+                    <a href="#" target="_blank" title="Facebook" class="socials-item">
+                      <i class="fab fa-facebook-f facebook"></i>
+                    </a>
+                    <a href="#" target="_blank" title="GitHub" class="socials-item">
+                      <i class="fab fa-github github"></i>
+                    </a>
+                    <a href="#" target="_blank" title="Instagram" class="socials-item">
+                      <i class="fab fa-instagram instagram"></i>
+                    </a>
+                    <a href="#" target="_blank" title="Linkedin" class="socials-item">
+                      <i class="fab fa-linkedin linkedin"></i>
+                    </a>
+                    <a href="#" target="_blank" title="Tweeter" class="socials-item">
+                      <i class="fab fa-twitter twitter"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </section> 
+
+  <!-- JS Footer -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="https://daniellaharel.com/raindrops/js/raindrops.js"></script>
+  <script> jQuery('#waterdrop').raindrops({color:'#d5d5d5', canvasHeight:150, density: 0.1, frequency: 20});
+  </script>
+
+  <!--JS Bootstrap-->
+  <script src="Bootstrap-5.2.0/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
