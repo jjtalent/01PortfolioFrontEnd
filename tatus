@@ -1,0 +1,23 @@
+[33mcommit c3157adbfc6634d425b93fcd3c9c5fe5dda2c12a[m[33m ([m[1;36mHEAD -> [m[1;32mdesarrollo2[m[33m)[m
+Author: Juan Jose Talenti <jjtalenti41@gmail.com>
+Date:   Sun Aug 28 23:46:25 2022 -0300
+
+    Angular con JSON en Header y Acerca De
+
+[33mcommit e2b04d26a5090dabee6d783fdf2dc67732027452[m[33m ([m[1;32mdesarrollo1[m[33m)[m
+Author: Juan Jose Talenti <jjtalenti41@gmail.com>
+Date:   Fri Aug 26 00:48:34 2022 -0300
+
+    Portfolio separado en componentes y hardcodeado
+
+[33mcommit ca7ffc1f7b4f05ce0e22044bb20c6fb1059e63a9[m[33m ([m[1;32minicio[m[33m)[m
+Author: Juan Jose Talenti <jjtalenti41@gmail.com>
+Date:   Thu Aug 25 00:54:44 2022 -0300
+
+    Portfolio en 1 solo componente inicial
+
+[33mcommit 48d78c911466a5ac8e588ce7bea7d8de3501b8cb[m
+Author: Juan Jose Talenti <jjtalenti41@gmail.com>
+Date:   Sun Aug 7 23:13:55 2022 -0300
+
+    initial commit
