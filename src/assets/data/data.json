@@ -10,5 +10,20 @@
 	"fotoPersonal": "../assets/img/fotoPersonal.png",
 	"nombreApellido":  "JUAN JOSÉ TALENTI",
 	"titulo": "FULL STACK DEVELOPER Jr",
-	"resenia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic rem placeat nulla accusamus soluta voluptatibus, cupiditate et corporis sapiente vitae minima, pariatur voluptates numquam aperiam eos commodi ipsum quibusdam unde? Alias dolor, ullam asperiores accusantium consequuntur corporis reprehenderit, illum voluptatibus quasi ea, cupiditate officiis delectus consectetur. Praesentium, asperiores? Veniam excepturi accusamus fuga ea corrupti ratione, fugit facere nemo, quos sint vero earum. Repudiandae deleniti earum, corporis facilis eius laudantium fugit doloribus sequi autem voluptate similique voluptas cumque saepe nostrum alias eaque provident minus tempore sint eligendi sunt quasi commodi! Esse expedita repellendus facere natus consequuntur minus perferendis, recusandae eveniet."
+	"resenia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic rem placeat nulla accusamus soluta voluptatibus, cupiditate et corporis sapiente vitae minima, pariatur voluptates numquam aperiam eos commodi ipsum quibusdam unde? Alias dolor, ullam asperiores accusantium consequuntur corporis reprehenderit, illum voluptatibus quasi ea, cupiditate officiis delectus consectetur. Praesentium, asperiores? Veniam excepturi accusamus fuga ea corrupti ratione, fugit facere nemo, quos sint vero earum. Repudiandae deleniti earum, corporis facilis eius laudantium fugit doloribus sequi autem voluptate similique voluptas cumque saepe nostrum alias eaque provident minus tempore sint eligendi sunt quasi commodi! Esse expedita repellendus facere natus consequuntur minus perferendis, recusandae eveniet.",
+
+	"tituloExp": "EXPERIENCIA LABORAL",
+	
+	"e1img": "../assets/img/explab01.png",
+	"e1posicion": "Experiencia Laboral 1",
+	"e1start": "inicio",
+	"e1end": "fin",
+	"e1descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic rem placeat nulla accusamus soluta voluptatibus, cupiditate et corporis sapiente vitae minima, pariatur voluptates numquam aperiam eos commodi ipsum quibusdam unde? Alias dolor, ullam asperiores accusantium consequuntur corporis reprehenderit, illum voluptatibus quasi ea, cupiditate officiis delectus consectetur. Praesentium, asperiores? Veniam excepturi accusamus fuga ea corrupti ratione, fugit facere nemo, quos sint vero earum. Repudiandae deleniti earum, corporis facilis eius laudantium fugit doloribus sequi autem voluptate similique voluptas cumque saepe nostrum alias eaque provident minus tempore sint eligendi sunt quasi commodi! Esse expedita repellendus facere natus consequuntur minus perferendis, recusandae eveniet.",
+	
+	"e2img": "../assets/img/explab02.png",
+	"e2posicion": "Experiencia Laboral 2",
+	"e2star": "inicio",
+	"e2end": "fin",
+	"e2descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic rem placeat nulla accusamus soluta voluptatibus, cupiditate et corporis sapiente vitae minima, pariatur voluptates numquam aperiam eos commodi ipsum quibusdam unde? Alias dolor, ullam asperiores accusantium consequuntur corporis reprehenderit, illum voluptatibus quasi ea, cupiditate officiis delectus consectetur. Praesentium, asperiores? Veniam excepturi accusamus fuga ea corrupti ratione, fugit facere nemo, quos sint vero earum. Repudiandae deleniti earum, corporis facilis eius laudantium fugit doloribus sequi autem voluptate similique voluptas cumque saepe nostrum alias eaque provident minus tempore sint eligendi sunt quasi commodi! Esse expedita repellendus facere natus consequuntur minus perferendis, recusandae eveniet."
+	
 }
