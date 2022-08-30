@@ -38,6 +38,35 @@
 	"ed2estudio": "Educación 2",
 	"ed2start": "1995",
 	"ed2end": "1998",
-	"ed2descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eum cum qui, placeat, omnis quisquam ex iusto, id quo delectus iste. Eum molestias quae provident numquam expedita vero hic, tenetur laboriosam cumque quo, blanditiis repellendus laborum beatae assumenda aperiam, aspernatur quis necessitatibus ea dicta pariatur. Non quidem repudiandae ratione a."
+	"ed2descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eum cum qui, placeat, omnis quisquam ex iusto, id quo delectus iste. Eum molestias quae provident numquam expedita vero hic, tenetur laboriosam cumque quo, blanditiis repellendus laborum beatae assumenda aperiam, aspernatur quis necessitatibus ea dicta pariatur. Non quidem repudiandae ratione a.",
+
+	"tituloskill": "HARD & SOFT SKILLS",
+
+	"class1" : "progress-bars-1",
+	"avance1" : "80%",
+	"nombre1" : "Habilidad 1",
+
+	"class2" : "progress-bars-2",
+	"avance2" : "40%",
+	"nombre2" : "Habilidad 2",
+
+	"class3" : "progress-bars-3",
+	"avance3" : "65%",
+	"nombre3" : "Habilidad 3",
+
+	"class4" : "progress-bars-4",
+	"avance4" : "70%",
+	"nombre4" : "Habilidad 4",
+
+	"tituloidioma": "IDIOMAS",
+
+	"idionombre1" : "Italiano",
+	"idioavance1" : "60%",
+	"idioprogress1" : "progress 1",
+
+	"idionombre2" : "Inglés",
+	"idioavance2" : "90%",
+	"idioprogress2" : "progress 2"
+
 	
 }

@@ -1,29 +1,29 @@
 <!-- Hard and Soft Skills -->
 <section class="container">
     <div class="row mx-auto" style="background: #d5d5d5;">
-      <h2 style="color:#000;">HARD & SOFT SKILLS</h2>
+      <h2 style="color:#000;">{{skills.tituloskill}}</h2>
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3" style="padding:3em;">
-        <div class="progress-bars-1">
-          <h4>80%</h4>
-          <p>Habilidad 1</p>
+        <div [class]="skills.class1">
+          <h4>{{skills.avance1}}</h4>
+          <p>{{skills.nombre1}}</p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3" style="padding:3em;">
-        <div class="progress-bars-2">
-          <h4>40%</h4>
-          <p>Habilidad 2</p>
+        <div [class]="skills.class2">
+          <h4>{{skills.avance2}}</h4>
+          <p>{{skills.nombre2}}</p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3" style="padding:3em;">
-        <div class="progress-bars-3">
-          <h4>65%</h4>
-          <p>Habilidad 3</p>
+        <div [class]="skills.class3">
+          <h4>{{skills.avance3}}</h4>
+          <p>{{skills.nombre3}}</p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3" style="padding:3em;">
-        <div class="progress-bars-4">
-          <h4>70%</h4>
-          <p>Habilidad 4</p>
+        <div [class]="skills.class4">
+          <h4>{{skills.avance4}}</h4>
+          <p>{{skills.nombre4}}</p>
         </div>
       </div>
     </div>
@@ -31,14 +31,14 @@
     <!-- Idiomas -->
     <div class="container">
       <div class="row" style="background: #d5d5d5;">
-        <h2 style="color:#000;">IDIOMAS</h2>
+        <h2 style="color:#000;">{{skills.tituloidioma}}</h2>
         <div class="col-md-6">
-          <h3 class="progress-title"><p style="vertical-align: inherit;">Italiano - 60%</p></h3>
-          <div class="progress 1">
+          <h3 class="progress-title"><p style="vertical-align: inherit;">{{skills.idionombre1}} - {{skills.idioavance1}}</p></h3>
+          <div [class]="skills.idioprogress1">
             <div class="progress-bar" style="width:60%; background:#96858f;"></div>
           </div>
-          <h3 class="progress-title"><p style="vertical-align: inherit;">Inglés - 90%</p></h3>
-          <div class="progress 2">
+          <h3 class="progress-title"><p style="vertical-align: inherit;">{{skills.idionombre2}} - {{skills.idioavance2}}</p></h3>
+          <div [class]="skills.idioprogress2">
             <div class="progress-bar" style="width:90%; background:#6d7993;"></div>
           </div>
         </div>
