@@ -25,9 +25,43 @@
             <a href="#" target="_blank" title="Tweeter" class="socials-item">
               <i [class]="miPortfolio.botonTwitter"></i>
             </a>
-            <a href="login.html" class="btn btn-sm" id="login" title="Sólo Administrador">Ingresar</a>
           </div>
+        
+          <!-- Botón de Login -->  
+          <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Login</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Ingreso Restringido</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="wrapper">
+                <div class="logologin">
+                    <img src="./../../../assets/img/login.svg" alt="">
+                </div>
+                
+                <form class="p-3 mt-3">
+                    <div class="form-field d-flex align-items-center">
+                        <span class="fas fa-user"></span>
+                        <input type="text" name="userName" id="userName" placeholder="Usuario">
+                    </div>
+                    <div class="form-field d-flex align-items-center">
+                        <span class="fas fa-key"></span>
+                        <input type="password" name="password" id="pwd" placeholder="Contraseña">
+                    </div>
+                    <button class="btn mt-3">Ingresar</button>
+                </form>
+                <div class="text-center fs-6">
+                    <a href="#">Perdiste la Contraseña?</a>
+                </div>
+            </div>
+            </div>
+          </div>
+
         </div>
+        
+        <!-- <a href="login.html" class="btn btn-sm" id="login" title="Sólo Administrador">Ingresar</a> -->
+         
         <!-- <div class="rrss col-auto">
               <a href="#"><img src="img/facebook.png" class="img-fluid img-responsive pe-1" width="30px" alt="Facebook"></a>
               <a href="#"><img src="img/github.png" class="img-fluid img-responsive pe-1" width="30px" alt="Github"></a>
