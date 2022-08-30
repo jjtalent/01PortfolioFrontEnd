@@ -2,38 +2,38 @@
 <section class="container">
     <div class="row mx-auto" style="background-color: #d5d5d5;">
       
-        <h2 style="margin-bottom:2%;">PROYECTOS</h2>
+        <h2 style="margin-bottom:2%;">{{proyectos.tituloproyectos}}</h2>
         <!-- Proyecto 1 -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
           <hr class="mt-2 mb-2">
-          <h4 class="text-left">Proyecto 1</h4>
-          <h5 class="text-left">Período () - ()</h5>
-          <h5 class="text-left">Link: </h5><a href="#">www.algunsitio.com</a>
+          <h4 class="text-left">{{proyectos.proy1nombre}}</h4>
+          <h5 class="text-left">Período ({{proyectos.proy1start}}) - ({{proyectos.proy1end}})</h5>
+          <h5 class="text-left">Link: </h5><a href="#">{{proyectos.proy1link}}</a>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-          <p class="acercade text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic rem placeat nulla accusamus soluta voluptatibus, cupiditate et corporis sapiente vitae minima, pariatur voluptates numquam aperiam eos commodi ipsum quibusdam unde? Alias dolor, ullam asperiores accusantium consequuntur corporis reprehenderit, illum voluptatibus quasi ea, cupiditate officiis delectus consectetur. Praesentium, asperiores? Veniam excepturi accusamus fuga ea corrupti ratione, fugit facere nemo, quos sint vero earum. Repudiandae deleniti earum, corporis facilis eius laudantium fugit doloribus sequi autem voluptate similique voluptas cumque saepe nostrum alias eaque provident minus tempore sint eligendi sunt quasi commodi! Esse expedita repellendus facere natus consequuntur minus perferendis, recusandae eveniet.</p>
+          <p class="acercade text-justify">{{proyectos.proy1descripcion}}</p>
         </div> 
         <div class="container">
-          <h4 class="text-center text-lg-start mt-1 mb-1.8">Algunas Imágenes del Proyecto</h4>
+          <h4 class="text-center text-lg-start mt-1 mb-1.8">{{proyectos.tituloimg}}</h4>
           <div class="row text-center text-lg-start">
             <div class="col-lg-3 col-md-4 col-6">
               <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="../assets/img/pr01.png" alt="">
+                <img class="img-fluid img-thumbnail" [src]="proyectos.pro1img1" alt="">
               </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6">
               <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="../assets/img/pr02.png" alt="">
+                <img class="img-fluid img-thumbnail" [src]="proyectos.pro1img2" alt="">
               </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6">
               <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="../assets/img/pr03.png" alt="">
+                <img class="img-fluid img-thumbnail" [src]="proyectos.pro1img3" alt="">
               </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6">
               <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="../assets/img/pr04.png" alt="">
+                <img class="img-fluid img-thumbnail" [src]="proyectos.pro1img4" alt="">
               </a>
             </div>
           </div>
@@ -42,34 +42,34 @@
         <!-- Proyecto 2 -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
           <hr class="mt-2 mb-2">
-          <h4 class="text-left">Proyecto 2</h4>
-          <h5 class="text-left">Período () - ()</h5>
-          <h5 class="text-left">Link: </h5><a href="#">www.algunsitio.com</a>
+          <h4 class="text-left">{{proyectos.proy2nombre}}</h4>
+          <h5 class="text-left">Período ({{proyectos.proy2start}}) - ({{proyectos.proy2end}})</h5>
+          <h5 class="text-left">Link: </h5><a href="#">{{proyectos.proy2link}}</a>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-          <p class="acercade text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic rem placeat nulla accusamus soluta voluptatibus, cupiditate et corporis sapiente vitae minima, pariatur voluptates numquam aperiam eos commodi ipsum quibusdam unde? Alias dolor, ullam asperiores accusantium consequuntur corporis reprehenderit, illum voluptatibus quasi ea, cupiditate officiis delectus consectetur. Praesentium, asperiores? Veniam excepturi accusamus fuga ea corrupti ratione, fugit facere nemo, quos sint vero earum. Repudiandae deleniti earum, corporis facilis eius laudantium fugit doloribus sequi autem voluptate similique voluptas cumque saepe nostrum alias eaque provident minus tempore sint eligendi sunt quasi commodi! Esse expedita repellendus facere natus consequuntur minus perferendis, recusandae eveniet.</p>
+          <p class="acercade text-justify">{{proyectos.proy2descripcion}}</p>
         </div> 
         <div class="container">
-          <h4 class="text-center text-lg-start mt-1 mb-1.8">Algunas Imágenes del Proyecto</h4>
+          <h4 class="text-center text-lg-start mt-1 mb-1.8">{{proyectos.tituloimg}}</h4>
           <div class="row text-center text-lg-start">
             <div class="col-lg-3 col-md-4 col-6">
               <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="../assets/img/pr05.png" alt="">
+                <img class="img-fluid img-thumbnail" [src]="proyectos.pro2img1" alt="">
               </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6">
               <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="../assets/img/pr06.png" alt="">
+                <img class="img-fluid img-thumbnail" [src]="proyectos.pro2img2" alt="">
               </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6">
               <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="../assets/img/pr07.png" alt="">
+                <img class="img-fluid img-thumbnail" [src]="proyectos.pro2img3" alt="">
               </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6">
               <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="../assets/img/pr08.png" alt="">
+                <img class="img-fluid img-thumbnail" [src]="proyectos.pro2img4" alt="">
               </a>
             </div>
           </div>
