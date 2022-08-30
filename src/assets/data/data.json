@@ -89,6 +89,24 @@
 	"pro2img1" : "../assets/img/pr05.png",
 	"pro2img2" : "../assets/img/pr06.png",
 	"pro2img3" : "../assets/img/pr07.png",
-	"pro2img4" : "../assets/img/pr08.png"
+	"pro2img4" : "../assets/img/pr08.png",
+
+	"foodir1" : "Lorem, ipsum. : Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum voluptates eos nisi vel doloribus quaerat.",
+	"footel1" : "+54-9122588799",
+	"foodir2" : "Lorem, ipsum. : Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+	"footel2" : "+54-2222222222",
+	"foonoti11" : "Lorem ipsum dolor sit.",
+	"foonoti21" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, impedit?.",
+	"foonoti31" : "Lorem ipsum dolor sit amet consectetur adipisicing.",
+	"foonoti12" : "Lllama al +54-9122588799",
+	"foonoti22" : "Llama al +54-9122588799, +54-9122588799",
+	"foonoti32" : "Llama al +54-9122588799, +54-9122588799",
+	"fooimg1" : "../assets/img/at01.jpg",	
+	"fooimg2" : "../assets/img/at02.jpg",
+	"fooimg3" : "../assets/img/at03.jpg",
+	"fooimg4" : "../assets/img/at04.jpg",
+	"fooimg5" : "../assets/img/at05.jpg",
+	"fooimg6" : "../assets/img/at06.jpg"
+
 	
 }
