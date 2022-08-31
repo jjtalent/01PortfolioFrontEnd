@@ -24,10 +24,17 @@
             ],
             "styles": [
               "src/styles.css",
+<<<<<<< HEAD
               "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.js"
+=======
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+>>>>>>> inicio
             ]
           },
           "configurations": {
@@ -102,6 +109,10 @@
     }
   },
   "cli": {
+<<<<<<< HEAD
     "analytics": "a2ccbad8-bbff-4416-81f5-4a3163aaf65b"
+=======
+    "analytics": "ec9c64fc-508b-475f-9d90-2d3489ba2581"
+>>>>>>> inicio
   }
 }
