@@ -282,7 +282,7 @@ body {
   }
   #footer-socials .socials {
     text-align: right;
-    margin: 0 -7px;
+    /*margin: 0 -7px;*/
     display: inline-block;
     vertical-align: middle;
   }
@@ -535,3 +535,93 @@ body {
   padding-top: 10px;
   }
   
+/* Login */
+  .logologin {
+    width: 80px;
+    margin: auto;
+}
+
+.logologin img {
+    width: 100%;
+    height: 80px;
+    object-fit: scale-down;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff;
+}
+
+.wrapper {
+  max-width: 350px;
+  min-height: 400px;
+  margin: 2px auto;
+  padding: 30px 30px 30px 30px;
+  background-color: #d5d5d5;
+  border-radius: 15px;
+  box-shadow: 13px 13px 20px #d5d5d5, -13px -13px 20px #fff;
+}
+
+.wrapper .name {
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 1.3px;
+  padding-left: 10px;
+  color: #222;
+}
+
+.wrapper .form-field input {
+  width: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.2rem;
+  color: #222;
+  padding: 10px 15px 10px 10px;
+  /* border: 1px solid red; */
+}
+
+.wrapper .form-field {
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.wrapper .form-field .fas {
+  color: #555;
+}
+
+.wrapper .btn {
+  box-shadow: none;
+  width: 100%;
+  height: 40px;
+  background-color: #6d7993;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px #b1b1b1,
+      -3px -3px 3px #fff;
+  letter-spacing: 1.3px;
+}
+
+.wrapper .btn:hover {
+  background-color: #6d7993;
+}
+
+.wrapper a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #6d7993;
+}
+
+.wrapper a:hover {
+  color: #6d7993;
+}
+
+@media(max-width: 380px) {
+  .wrapper {
+      margin: 30px 20px;
+      padding: 40px 15px 15px 15px;
+  }
+}
